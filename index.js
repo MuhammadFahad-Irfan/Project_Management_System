@@ -7,7 +7,7 @@ const app = express();
 app.use(express.urlencoded({ Extended: true }))
 app.use(express.json())
 
-app.use('/Dashboard', projectRoute)
+app.use('/dashboard', projectRoute)
 app.use('/', userRoute)
 //app.use('/signin',userRoute.login)
 
